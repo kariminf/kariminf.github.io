@@ -1,1 +1,0 @@
-# kariminf.github.io

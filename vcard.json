@@ -1,0 +1,124 @@
+{
+  "theme": {
+    "name": "default",
+    "style": "default"
+  },
+  "perso": {
+    "name":"abdelkrime",
+    "family":"aries",
+    "photo": "profile.jpg",
+    "birthday": "19860903",
+    "email": "kariminfo0@gmail.com",
+    "tel": "You wish!!",
+    "web": "https://github.com/kariminf",
+    "address": "Jijel, Algeria",
+    "title": "Assistant professor",
+    "bio": "bio.htm"
+  },
+  "social": {
+    "twitter": "https://twitter.com/kariminf",
+    "linkedin": "https://www.linkedin.com/in/karies/",
+    "gplus": "https://plus.google.com/+kariminf0"
+  },
+  "exp": [
+    {
+      "from": "20131219",
+      "to": "today",
+      "job": "Assistant professor",
+      "org": "ESI",
+      "resp": [
+        "1st years: Office and Intro to Web",
+        "2nd years: Oriented-object programming",
+        "3rd years: Project (not anymore)",
+        "3rd years: Formal language and programming"
+      ],
+      "desc": "esi-job.htm"
+    }
+  ],
+  "educ": [
+    {
+      "from": "2010",
+      "to": "2013",
+      "inst": "ESI",
+      "desc": "magister.htm"
+    },
+    {
+      "from": "2004",
+      "to": "2009",
+      "inst": "Jijel University",
+      "desc": "pfe.htm"
+    }
+  ],
+  "pub": [
+    {
+      "title": "AllSummarizer system at MultiLing 2015: Multilingual single and multi-document summarization",
+      "publisher": "Association for Computational Linguistics",
+      "date": "20150901",
+      "url": "https://aclweb.org/anthology/W/W15/W15-4634.pdf",
+      "authors": [
+        "Abdelkrime Aries",
+        "Djamal Eddine Zegour",
+        "Walid Khaled Hidouci"
+      ],
+      "desc": "pub2.htm"
+    },
+    {
+      "title": "Using clustering and a modified classification algorithm for automatic text summarization",
+      "publisher": "SPIE",
+      "date": "20130203",
+      "url": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1568658",
+      "authors": [
+        "Abdelkrime Aries",
+        "Houda Oufaida",
+        "Omar Nouali"
+      ],
+      "desc": "pub1.htm"
+    }
+
+  ],
+  "skill": [
+    {
+      "title": "Java",
+      "mark": 5
+    },
+    {
+      "title": "Qt/C++",
+      "mark": 5
+    },
+    {
+      "title": "Javascript",
+      "mark": 5
+    },
+    {
+      "title": "I will add skills later",
+      "mark": 5
+    }
+  ],
+  "lang": [
+    {
+      "name": "Arabic",
+      "read": 5,
+      "write": 5,
+      "ustnd": 5
+    },
+    {
+      "name": "French",
+      "read": 5,
+      "write": 5,
+      "ustnd": 5
+    },
+    {
+      "name": "English",
+      "read": 5,
+      "write": 5,
+      "ustnd": 5
+    },
+    {
+      "name": "Japanese",
+      "read": 5,
+      "write": 5,
+      "ustnd": 5
+    }
+  ]
+
+}
