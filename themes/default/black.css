@@ -1,0 +1,376 @@
+/*************************************************************/
+.kfs, #header, #info, #bio, #pub .elem, #educ .elem, #exp .elem, #social .wrapper, #footer {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.kfs {
+  padding: 2px;
+  margin: 1.25em .25em .25em .25em;
+}
+
+.kfs::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.kfs > h1 {
+  font: 1em normal;
+  color: black;
+  margin: -1.25em -0.5em 0;
+}
+
+.kfs > h1::after {
+  content: ' ';
+  display: block;
+  height: .5em;
+  overflow: hidden;
+  position: relative;
+  top: .5em;
+}
+
+.kfs > h1::before {
+  content: ' ';
+  display: block;
+  height: .5em;
+  overflow: hidden;
+  position: relative;
+  bottom: .5em;
+}
+
+.kfs > h1 > span{
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px black;
+  margin-left: 1em;
+  background-color: white;
+}
+
+.wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+/************************************************************/
+
+/* For mobile phones: */
+#header {
+  width: 100%;
+}
+
+#pic-frm {
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+  margin: 5px;
+}
+
+#pic {
+  width: 7.5em;
+  height: 11em;
+}
+
+#info {
+  width: 55%;
+  width: calc(100% - 7.5em - 25px);
+  float: right;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+
+#bio {
+  padding: 5px;
+  clear: right;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#fullname {
+  position: relative;
+  margin: 5px;
+}
+
+#name, #family, #title {
+  text-transform: capitalize;
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+  color: black;
+  margin-left: 5px;
+}
+
+#title {
+  text-transform:uppercase;
+  margin: 10px;
+}
+
+#cont :not(#skill) .elem {
+  width: calc( 100% - 20px);
+}
+
+#cont .elem {
+  display: inline-block;
+  float: left;
+  margin: .5em;
+  width: calc( 100% - 20px);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#birth, #mail, #tel, #web, #address {
+  margin: 3px 0 0 10px;
+}
+
+#info > .icons .elem::before {
+  display:inline-block;
+  height: 1em;
+  width: 1em;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  filter: grayscale(100%) contrast(200%);
+}
+
+#mail::before{
+  background-image: url("../img/violet/mail.png");
+}
+
+#tel::before{
+  background-image: url("../img/violet/phone.png");
+}
+
+#web::before{
+  background-image: url("../img/violet/web.png");
+}
+
+#address::before {
+  background-image: url("../img/violet/home.png");
+}
+
+#wrapper, #cont {
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+
+#social {
+  margin: 10px;
+  text-align: center;
+}
+
+a {color: black;}
+
+#scontent a {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 5px;
+  border: 0;
+  filter: grayscale(100%) contrast(200%);
+}
+
+#scontent a:hover {
+  transform: rotate(360deg);
+  transition: transform 0.2s ease;
+}
+
+#facebook {
+  background-image: url("../img/violet/facebook.png");
+}
+
+#twitter {
+  background-image: url("../img/violet/twitter.png");
+}
+
+#linkedin {
+  background-image: url("../img/violet/linkedin.png");
+}
+
+#gplus {
+  background-image: url("../img/violet/gplus.png");
+}
+
+.barc {
+  display: inline-block;
+  width: 10em;
+  background-color: grey;
+  height: 1em;
+}
+
+.bar {
+  display: inline-block;
+  background-color: black;
+  height: 100%;
+}
+
+#footer {
+  height: 3em;
+  border: 5px;
+  padding-top: 1em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+#footer a {
+  color: yellow;
+}
+
+.elem .name {
+  font-weight: bold;
+  color: black;
+}
+
+.date, .org {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#pub tr:nth-child(odd) {
+  background: grey;
+}
+
+.desc {
+  font-size: .8em;
+  font-style: italic;
+}
+
+#educ .field, .org {
+  font-style: italic;
+  margin-left: 1em;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  #info{
+    display:block;
+    vertical-align: top;
+    height: 11em;
+  }
+
+  #bio {
+    float: right;
+    width: 40%;
+    width: calc(50% - 4em - 25px);
+    height: 13.75em;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
+  #cont :not(#skill):not(#lang) .elem {
+    width: 46%;
+    width: calc(50% - 1.5em);
+  }
+
+  #cont #skill .elem {
+    width: initial;
+  }
+
+  #lang .read, #lang .write, #lang .ustnd {
+    display: inline-block;
+  }
+
+  #name, #family {
+    float: left;
+    margin-left: 5px;
+  }
+
+  #title {
+    clear: both;
+  }
+
+  #info {
+    width:40%;
+    width: calc(50% - 3.25em - 25px);
+    float: left;
+  }
+
+  #header {
+    display:block;
+    position: fixed;
+    z-index: 2;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    width: calc(100% - 17px);
+    height: 12em;
+  }
+
+  /*this is used to position the content after the header*/
+  #wrapper{
+    position: absolute;
+    top: 13em;
+    left:0;
+    right: 0;
+    bottom: 0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
+  #social {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    width: 7.5em;
+    height: 11em;
+    margin: 0;
+    padding: 0;
+    transition: 1s ease;
+  }
+
+  #social:hover {
+    width: 50%;
+    width: calc(50% + 3.25em - 10px);
+    transition: .1s ease;
+  }
+
+  #social .wrapper {
+    height: 100%;
+    width: 7.5em;
+    transition: .5s ease;
+  }
+
+  #shead {
+    width: 0;
+    height: 0;
+  }
+
+  #scontent {
+    position: absolute;
+    left: 8em;
+    opacity: 0;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+    background-color: white;
+    transition: opacity 1s ease;
+  }
+
+  #scontent a {
+    width: 0;
+    height: 0;
+  }
+
+  #social:hover .wrapper {
+    width: 100%;
+  }
+
+  #social:hover #scontent {
+    opacity: 100;
+    width: 60%;
+    width: calc(100% - 7.5em - 7px);
+  }
+
+  #social:hover .wrapper #scontent a {
+    width: 64px;
+    height: 64px;
+  }
+
+}

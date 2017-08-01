@@ -1,7 +1,9 @@
 {
-  "theme": {
-    "name": "default",
-    "style": "default"
+  "page": {
+    "theme": "default",
+    "style": "black",
+    "title": "Karim CV",
+    "footer": "footer.htm"
   },
   "perso": {
     "name":"abdelkrime",
@@ -25,7 +27,7 @@
       "from": "20131219",
       "to": "today",
       "job": "Assistant professor",
-      "org": "ESI",
+      "org": "ESI, Algiers, Algeria",
       "resp": [
         "1st years: Office and Intro to Web",
         "2nd years: Oriented-object programming",
@@ -39,13 +41,17 @@
     {
       "from": "2010",
       "to": "2013",
-      "inst": "ESI",
+      "inst": "ESI, Algiers, Algeria",
+      "degree": "Magister",
+      "field": "CS: Distributed and mobile informatics",
       "desc": "magister.htm"
     },
     {
       "from": "2004",
       "to": "2009",
-      "inst": "Jijel University",
+      "inst": "Jijel University, Algeria",
+      "degree": "Engineer",
+      "field": "CS: Advanced information systems",
       "desc": "pfe.htm"
     }
   ],
