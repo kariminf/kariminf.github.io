@@ -29,26 +29,26 @@
       "job": "Assistant professor",
       "org": "ESI, Algiers, Algeria",
       "resp": [
-        "1st years: Office and Intro to Web",
-        "2nd years: Oriented-object programming",
-        "3rd years: Project (not anymore)",
-        "3rd years: Formal language and programming"
+        "1<sup>st</sup> years: Office and Intro to Web",
+        "2<sup>nd</sup> years: Oriented-object programming",
+        "3<sup>rd</sup> years: Project (not anymore)",
+        "3<sup>rd</sup> years: Formal language and programming"
       ],
       "desc": "esi-job.htm"
     }
   ],
   "educ": [
     {
-      "from": "2010",
-      "to": "2013",
+      "from": "201009",
+      "to": "201307",
       "inst": "ESI, Algiers, Algeria",
       "degree": "Magister",
-      "field": "CS: Distributed and mobile informatics",
+      "field": "CS: Distributed and mobile computing",
       "desc": "magister.htm"
     },
     {
-      "from": "2004",
-      "to": "2009",
+      "from": "200409",
+      "to": "200906",
       "inst": "Jijel University, Algeria",
       "degree": "Engineer",
       "field": "CS: Advanced information systems",
@@ -85,45 +85,45 @@
   "skill": [
     {
       "title": "Java",
-      "mark": 5
+      "mark": 7
     },
     {
       "title": "Qt/C++",
-      "mark": 5
+      "mark": 6
     },
     {
       "title": "Javascript",
-      "mark": 5
+      "mark": 8
     },
     {
-      "title": "I will add skills later",
-      "mark": 5
+      "title": "Python",
+      "mark": 4
+    },
+    {
+      "title": "LaTex",
+      "mark": 3
+    },
+    {
+      "title": "PHP",
+      "mark": 3
     }
   ],
   "lang": [
     {
       "name": "Arabic",
-      "read": 5,
-      "write": 5,
-      "ustnd": 5
+      "mark": 9
     },
     {
       "name": "French",
-      "read": 5,
-      "write": 5,
-      "ustnd": 5
+      "mark": 6
     },
     {
       "name": "English",
-      "read": 5,
-      "write": 5,
-      "ustnd": 5
+      "mark": 7
     },
     {
       "name": "Japanese",
-      "read": 5,
-      "write": 5,
-      "ustnd": 5
+      "mark": 2
     }
   ]
 
