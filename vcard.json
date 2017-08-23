@@ -1,10 +1,4 @@
 {
-  "page": {
-    "theme": "default",
-    "style": "black",
-    "title": "Karim CV",
-    "footer": "footer.htm"
-  },
   "perso": {
     "name":"abdelkrime",
     "family":"aries",
@@ -15,7 +9,7 @@
     "web": "https://github.com/kariminf",
     "address": "Jijel, Algeria",
     "title": "Assistant professor",
-    "bio": "bio.htm"
+    "bio": "html/bio.htm"
   },
   "social": {
     "twitter": "https://twitter.com/kariminf",
@@ -34,7 +28,7 @@
         "3<sup>rd</sup> years: Project (not anymore)",
         "3<sup>rd</sup> years: Formal language and programming"
       ],
-      "desc": "esi-job.htm"
+      "desc": "html/esi-job.htm"
     }
   ],
   "educ": [
@@ -44,7 +38,7 @@
       "inst": "ESI, Algiers, Algeria",
       "degree": "Magister",
       "field": "CS: Distributed and mobile computing",
-      "desc": "magister.htm"
+      "desc": "html/magister.htm"
     },
     {
       "from": "200409",
@@ -52,7 +46,7 @@
       "inst": "Jijel University, Algeria",
       "degree": "Engineer",
       "field": "CS: Advanced information systems",
-      "desc": "pfe.htm"
+      "desc": "html/pfe.htm"
     }
   ],
   "pub": [
@@ -66,7 +60,7 @@
         "Djamal Eddine Zegour",
         "Walid Khaled Hidouci"
       ],
-      "desc": "pub2.htm"
+      "desc": "html/pub2.htm"
     },
     {
       "title": "Using clustering and a modified classification algorithm for automatic text summarization",
@@ -78,7 +72,7 @@
         "Houda Oufaida",
         "Omar Nouali"
       ],
-      "desc": "pub1.htm"
+      "desc": "html/pub1.htm"
     }
 
   ],
