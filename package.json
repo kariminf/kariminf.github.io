@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kariminf/kariminf.github.io#readme",
   "dependencies": {
-    "json-vcard": "^1.2.1"
+    "json_vcard": "^1.2.2"
   }
 }
