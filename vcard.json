@@ -51,6 +51,30 @@
   ],
   "pub": [
     {
+      "title": "Exploring Graph Bushy Paths to Improve Statistical Multilingual Automatic Text Summarization",
+      "publisher": "Springer",
+      "date": "20180412",
+      "url": "https://doi.org/10.1007/978-3-319-89743-1_8",
+      "authors": [
+        "Abdelkrime Aries",
+        "Djamal Eddine Zegour",
+        "Walid Khaled Hidouci"
+      ],
+      "desc": "html/pub4.htm"
+    },
+    {
+      "title": "Sentence Object Notation: Multilingual sentence notation based on Wordnet",
+      "publisher": "Arxiv",
+      "date": "20180103",
+      "url": "https://arxiv.org/abs/1801.00984",
+      "authors": [
+        "Abdelkrime Aries",
+        "Djamal Eddine Zegour",
+        "Walid Khaled Hidouci"
+      ],
+      "desc": "html/pub3.htm"
+    },
+    {
       "title": "AllSummarizer system at MultiLing 2015: Multilingual single and multi-document summarization",
       "publisher": "Association for Computational Linguistics",
       "date": "20150901",
