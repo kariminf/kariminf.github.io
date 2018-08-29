@@ -2,7 +2,7 @@
   "name": "kariminf.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "jsonvcard.js",
+  "main": "cv.json.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kariminf/kariminf.github.io#readme",
   "dependencies": {
-    "json_vcard": "^1.2.3"
+    "cv.json": "^1.3.10"
   }
 }
