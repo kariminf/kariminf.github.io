@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kariminf/kariminf.github.io#readme",
   "dependencies": {
-    "cv.json": "^1.3.10"
+    "cv.json": "^2.0.0"
   }
 }
