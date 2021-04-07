@@ -25,13 +25,25 @@
       "resp": [
         "1<sup>st</sup> years: Office and Intro to Web",
         "2<sup>nd</sup> years: Oriented-object programming",
+        "2<sup>nd</sup> years: Files structures",
         "3<sup>rd</sup> years: Project (not anymore)",
-        "3<sup>rd</sup> years: Formal language and programming"
+        "3<sup>rd</sup> years: Formal language and programming (not anymore)",
+        "4<sup>th</sup> years: Compilers (not anymore)",
+        "4<sup>th</sup> years: Machine Learning",
+        "Master: Natural language processing"
       ],
       "desc": "html/esi-job.htm"
     }
   ],
   "educ": [
+    {
+      "from": "201310",
+      "to": "202010",
+      "inst": "ESI, Algiers, Algeria",
+      "degree": "PhD",
+      "field": "Computer Science",
+      "desc": "html/phd.htm"
+    },
     {
       "from": "201009",
       "to": "201307",
@@ -50,6 +62,30 @@
     }
   ],
   "pub": [
+    {
+      "title": "Graph-based cumulative score using statistical features for multilingual automatic text summarisation",
+      "publisher": "Int. J. Data Min. Model. Manag",
+      "date": "20210209",
+      "url": "http://www.inderscience.com/offer.php?id=112909",
+      "authors": [
+        "Abdelkrime Aries",
+        "Djamel Eddine Zegour",
+        "Walid Khaled Hidouci"
+      ],
+      "desc": "html/pub6.htm"
+    },
+    {
+      "title": "Automatic text summarization: What has been done and what has to be done",
+      "publisher": "Arxiv",
+      "date": "20190401",
+      "url": "https://arxiv.org/abs/1904.00688",
+      "authors": [
+        "Abdelkrime Aries",
+        "Djamel Eddine Zegour",
+        "Walid Khaled Hidouci"
+      ],
+      "desc": "html/pub5.htm"
+    },
     {
       "title": "Exploring Graph Bushy Paths to Improve Statistical Multilingual Automatic Text Summarization",
       "publisher": "Springer",
@@ -115,7 +151,7 @@
     },
     {
       "title": "Python",
-      "mark": 4
+      "mark": 6
     },
     {
       "title": "LaTex",
@@ -123,6 +159,10 @@
     },
     {
       "title": "PHP",
+      "mark": 3
+    },
+    {
+      "title": "C",
       "mark": 3
     }
   ],
